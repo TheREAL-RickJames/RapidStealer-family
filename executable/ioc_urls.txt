@@ -1,0 +1,10 @@
+http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+http://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+http://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0
+http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+http://nsis.sf.net/NSIS_Error
+http://ocsp.digicert.com0A
+http://ocsp.digicert.com0C
+http://ocsp.digicert.com0]

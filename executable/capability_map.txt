@@ -1,0 +1,165 @@
+======================================================================
+  KUMORI CLIENT - FULL CAPABILITY MAP
+  Source: webcrack deobfuscation of output.js (13MB obfuscator.io)
+======================================================================
+
+--- BROWSERS TARGETED (64) ---
+  AppData\Local\BraveSoftware\Brave-Browser\User Data
+  AppData\Local\BraveSoftware\Brave-Browser\User Data\Local State
+  AppData\Local\Chromium\User Data
+  AppData\Local\Chromium\User Data\Local State
+  AppData\Local\Vivaldi\User Data
+  AppData\Local\Vivaldi\User Data\Local State
+  AppData\Local\Yandex\YandexBrowser\User Data
+  AppData\Local\Yandex\YandexBrowser\User Data\Local State
+  AppData\Roaming\Mozilla\Firefox\Profiles
+  AppData\Roaming\Opera Software\Opera GX Stable
+  AppData\Roaming\Opera Software\Opera GX Stable\Local State
+  AppData\Roaming\Opera Software\Opera Stable
+  AppData\Roaming\Opera Software\Opera Stable\Local State
+  AppData\\Local\\360Chrome\\Chrome\\User Data
+  AppData\\Local\\360Chrome\\Chrome\\User Data\\Local State
+  AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data
+  AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Local State
+  AppData\\Local\\Chromium\\User Data
+  AppData\\Local\\Chromium\\User Data\\Local State
+  AppData\\Local\\CocCoc\\Browser\\User Data
+  AppData\\Local\\CocCoc\\Browser\\User Data\\Local State
+  AppData\\Local\\Tencent\\QQBrowser\\User Data
+  AppData\\Local\\Tencent\\QQBrowser\\User Data\\Local State
+  AppData\\Local\\Vivaldi\\User Data
+  AppData\\Local\\Vivaldi\\User Data\\Local State
+  AppData\\Local\\Yandex\\YandexBrowser\\User Data
+  AppData\\Local\\Yandex\\YandexBrowser\\User Data\\Local State
+  AppData\\Roaming\\Mozilla\\Firefox\\Profiles
+  AppData\\Roaming\\Opera Software\\Opera GX Stable
+  AppData\\Roaming\\Opera Software\\Opera GX Stable\\Local State
+  AppData\\Roaming\\Opera Software\\Opera Stable
+  AppData\\Roaming\\Opera Software\\Opera Stable\\Local State
+  AppData\\\\Local\\\\360Chrome\\\\Chrome\\\\User Data
+  AppData\\\\Local\\\\360Chrome\\\\Chrome\\\\User Data\\\\Local State
+  AppData\\\\Local\\\\CocCoc\\\\Browser\\\\User Data
+  AppData\\\\Local\\\\CocCoc\\\\Browser\\\\User Data\\\\Local State
+  AppData\\\\Local\\\\Tencent\\\\QQBrowser\\\\User Data
+  AppData\\\\Local\\\\Tencent\\\\QQBrowser\\\\User Data\\\\Local State
+  AppData\\\\Roaming\\\\Mozilla\\\\Firefox\\\\Profiles
+  Brave
+  Brave Softwarekey1
+  Chromium
+  Chromiumkey1
+  CocCoc Browser
+  CocCoc Browserkey1
+  Firefox
+  Firefox Beta
+  Firefox Developer
+  Firefox ESR
+  Firefox Nightly
+
+--- BROWSER PROFILE PATHS (51) ---
+  AppData\Local\BraveSoftware\Brave-Browser\User Data
+  AppData\Local\BraveSoftware\Brave-Browser\User Data\Local State
+  AppData\Local\Chromium\User Data
+  AppData\Local\Chromium\User Data\Local State
+  AppData\Local\Google\Chrome Beta\User Data
+  AppData\Local\Google\Chrome Beta\User Data\Local State
+  AppData\Local\Google\Chrome\User Data
+  AppData\Local\Google\Chrome\User Data\Local State
+  AppData\Local\Microsoft\Edge\User Data
+  AppData\Local\Microsoft\Edge\User Data\Local State
+  AppData\Local\Vivaldi\User Data
+  AppData\Local\Vivaldi\User Data\Local State
+  AppData\Local\Yandex\YandexBrowser\User Data
+  AppData\Local\Yandex\YandexBrowser\User Data\Local State
+  AppData\Roaming\Mozilla\Firefox\Profiles
+  AppData\Roaming\Opera Software\Opera GX Stable
+  AppData\Roaming\Opera Software\Opera GX Stable\Local State
+  AppData\Roaming\Opera Software\Opera Stable
+  AppData\Roaming\Opera Software\Opera Stable\Local State
+  AppData\\Local\\360Chrome\\Chrome\\User Data
+  AppData\\Local\\360Chrome\\Chrome\\User Data\\Local State
+  AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data
+  AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Local State
+  AppData\\Local\\Chromium\\User Data
+  AppData\\Local\\Chromium\\User Data\\Local State
+  AppData\\Local\\CocCoc\\Browser\\User Data
+  AppData\\Local\\CocCoc\\Browser\\User Data\\Local State
+  AppData\\Local\\Google\\Chrome Beta\\User Data
+  AppData\\Local\\Google\\Chrome Beta\\User Data\\Local State
+  AppData\\Local\\Google\\Chrome\\User Data
+  AppData\\Local\\Google\\Chrome\\User Data\\Local State
+  AppData\\Local\\Microsoft\\Edge\\User Data
+  AppData\\Local\\Microsoft\\Edge\\User Data\\Local State
+  AppData\\Local\\Tencent\\QQBrowser\\User Data
+  AppData\\Local\\Tencent\\QQBrowser\\User Data\\Local State
+  AppData\\Local\\Vivaldi\\User Data
+  AppData\\Local\\Vivaldi\\User Data\\Local State
+  AppData\\Local\\Yandex\\YandexBrowser\\User Data
+  AppData\\Local\\Yandex\\YandexBrowser\\User Data\\Local State
+  AppData\\Roaming\\Mozilla\\Firefox\\Profiles
+  AppData\\Roaming\\Opera Software\\Opera GX Stable
+  AppData\\Roaming\\Opera Software\\Opera GX Stable\\Local State
+  AppData\\Roaming\\Opera Software\\Opera Stable
+  AppData\\Roaming\\Opera Software\\Opera Stable\\Local State
+  AppData\\\\Local\\\\360Chrome\\\\Chrome\\\\User Data
+  AppData\\\\Local\\\\360Chrome\\\\Chrome\\\\User Data\\\\Local State
+  AppData\\\\Local\\\\CocCoc\\\\Browser\\\\User Data
+  AppData\\\\Local\\\\CocCoc\\\\Browser\\\\User Data\\\\Local State
+  AppData\\\\Local\\\\Tencent\\\\QQBrowser\\\\User Data
+  AppData\\\\Local\\\\Tencent\\\\QQBrowser\\\\User Data\\\\Local State
+
+--- FILES TARGETED FOR THEFT (24) ---
+  AppData\Local\BraveSoftware\Brave-Browser\User Data\Local State
+  AppData\Local\Chromium\User Data\Local State
+  AppData\Local\Google\Chrome Beta\User Data\Local State
+  AppData\Local\Google\Chrome\User Data\Local State
+  AppData\Local\Microsoft\Edge\User Data\Local State
+  AppData\Local\Vivaldi\User Data\Local State
+  AppData\Local\Yandex\YandexBrowser\User Data\Local State
+  AppData\Roaming\Opera Software\Opera GX Stable\Local State
+  AppData\Roaming\Opera Software\Opera Stable\Local State
+  AppData\\Local\\360Chrome\\Chrome\\User Data\\Local State
+  AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Local State
+  AppData\\Local\\Chromium\\User Data\\Local State
+  AppData\\Local\\CocCoc\\Browser\\User Data\\Local State
+  AppData\\Local\\Google\\Chrome Beta\\User Data\\Local State
+  AppData\\Local\\Google\\Chrome\\User Data\\Local State
+  AppData\\Local\\Microsoft\\Edge\\User Data\\Local State
+  AppData\\Local\\Tencent\\QQBrowser\\User Data\\Local State
+  AppData\\Local\\Vivaldi\\User Data\\Local State
+  AppData\\Local\\Yandex\\YandexBrowser\\User Data\\Local State
+  AppData\\Roaming\\Opera Software\\Opera GX Stable\\Local State
+  AppData\\Roaming\\Opera Software\\Opera Stable\\Local State
+  AppData\\\\Local\\\\360Chrome\\\\Chrome\\\\User Data\\\\Local State
+  AppData\\\\Local\\\\CocCoc\\\\Browser\\\\User Data\\\\Local State
+  AppData\\\\Local\\\\Tencent\\\\QQBrowser\\\\User Data\\\\Local State
+
+--- SQL QUERIES (credential/cookie/card extraction) (0) ---
+
+--- DPAPI / CRYPTO / KEY OPERATIONS (7) ---
+  \n            xored_aes_key = byte_xor(decrypted_aes_key, xor_key)\n            cipher = AES.new(xored_aes_key, AES.MODE_GCM, nonce=parsed_data[
+  \n        \n    hKey = gdef.NCRYPT_KEY_HANDLE()\n    status = ncrypt.NCryptOpenKey(hProvider, ctypes.byref(hKey), key_name, 0, 0)\n    if status != 0:\n        logger.error(f\"NCryptOpenKey failed: {status}\")\n        ncrypt.NCryptFreeObject(hProvider)\n        return b
+  ] == 2:\n            chacha20_key = bytes.fromhex(\"E98F37D7F4E1FA433D19304DC2258042090E2D1D7EEA7670D41F738D08729660\")\n            cipher = ChaCha20_Poly1305.new(key=chacha20_key, nonce=parsed_data[
+  ] == 3:\n            xor_key = bytes.fromhex(\"CCF8A1CEC56605B8517552BA1A2D061C03A29E90274FB2FCF59BA4B75C392390\")\n            with impersonate_lsass():\n                decrypted_aes_key = decrypt_with_cng(parsed_data[
+  ])\n            return cipher.decrypt_and_verify(parsed_data[
+  ], key_name)\n            if not decrypted_aes_key:\n                logger.error(\"Failed to decrypt AES key with CNG\")\n                return b
+  app_bound_encrypted_key
+
+--- CREDIT CARD EXTRACTION (0) ---
+
+--- PROCESS KILL / EXECUTION (9) ---
+  360chrome.exe
+  :\n                process_chromium_browser(browser_name, browser_config)\n            elif browser_config[
+  \n            if data_path and data_path.exists():\n                if norm in processed_paths:\n                    continue\n                processed_paths.add(norm)\n            if browser_config[
+  brave.exe
+  chrome.exe
+  firefox.exe
+  msedge.exe
+  opera.exe
+  process_name
+
+--- NETWORK / EXFIL INDICATORS (0) ---
+
+--- ZIP / ARCHIVE STAGING (0) ---
+
+--- REGISTRY (1) ---
+  \n        \n    hKey = gdef.NCRYPT_KEY_HANDLE()\n    status = ncrypt.NCryptOpenKey(hProvider, ctypes.byref(hKey), key_name, 0, 0)\n    if status != 0:\n        logger.error(f\"NCryptOpenKey failed: {status}\")\n        ncrypt.NCryptFreeObject(hProvider)\n        return b

