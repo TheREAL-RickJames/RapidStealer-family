@@ -1,6 +1,6 @@
 # KumoriClient Malware Analysis Report
 **Date:** 2026-06-12  
-**Analyst:** NyxStrike AI (Claude Sonnet 4.6)  
+**Analyst:** Nulled_ash  
 **Sample:** `sample.exe` (SHA-256 below)  
 **Classification:** Information Stealer + Discord Token Stealer  
 **Threat Level:** HIGH  
