@@ -4,7 +4,7 @@
 > **Sample:** `Kumoro Utility 3.1.6.jar` (Minecraft Fabric Mod)  
 > **Author alias:** `dev.azad1337` / `t.me/rapidstealerxx`  
 > **Analysis date:** 2026-06-04  
-> **Analyst:** Destiny Creates  
+> **Analyst:** nulled_ash  
 > **TLP:** WHITE — Free for distribution  
 
 ---
